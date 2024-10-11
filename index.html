@@ -16,12 +16,54 @@
         <section class="about">
             <div class="about__info">
                 <h1>Коты правят миром</h1>
-                <p>Котики - лучшее что с Вами может случиться.</p>
+                <p>Котики - лучшее, что с Вами может случиться.</p>
                 <button>Смотреть</button>
             </div>
             <div>
                 <img class="about__star" src="img/star.svg">
                 <img class="about__coolcat" src="img/cat1.svg">
+            </div>
+        </section>
+
+        <section class="form">
+            <div class="form__container">
+                <h1>
+                    Поделись своим котиком
+                </h1>
+                <p>
+                    Собираем информацию о разных видах кошечек и котиков. <BR> Чисто для статистики. <BR> Не переживайте!
+                </p>
+                <form>
+                    <div class="form__group">
+                        <p>
+                            <label for="name"> Ваше имя </label>
+                            <input type="text" placeholder="Введите имя" id="name">
+                        </p>
+                        <p>
+                            <label for="name2"> Имя котика </label>
+                            <input type="text" placeholder="Введите имя котика" id="name2">
+                        </p>
+                        <p>
+                            <label for="email">Ваша почта</label>
+                            <input type="email" placeholder="***@yandex.ru" id="email">
+                        </p>
+                        <p>
+                            <label for="phone">Ваш телефон</label>
+                            <input type="tel" placeholder="7 (999) 999 99 99" id="phone">
+                        </p>
+                        <p>
+                            <label for="color">Окрас</label>
+                            <select id="color">
+                                <option selected disabled>Выбери окрас</option>
+                                <option>Черный</option>
+                                <option>Белый</option>
+                                <option>Рыжий</option>
+                                <option>Другой</option>
+                            </select>
+                        </p>
+                        <button class="form__submit" type="submit">Поделиться</button>                        
+                    </div>
+                </form>
             </div>
         </section>
     </body>
@@ -40,3 +82,5 @@
     git commit -m ""
     
     -->
+    
+    
