@@ -16,7 +16,7 @@
         <section class="about">
             <div class="about__info">
                 <h1>Коты правят миром</h1>
-                <p>Котики - лучшее что с Вами может случиться.</p>
+                <p>Котики - лучшее, что с Вами может случиться.</p>
                 <button>Смотреть</button>
             </div>
             <div>
@@ -24,6 +24,65 @@
                 <img class="about__coolcat" src="img/cat1.svg">
             </div>
         </section>
+        <section class="form">
+            <div class="form__container">
+                <h1>
+                    Поделись своим котиком
+                </h1>
+                <p>
+                    Собираем информацию о разных видах кошечек и котиков. <BR> Чисто для статистики. <BR> Не переживайте!
+                </p>
+                <form>
+                    <div class="form__group">
+                        
+                            <label for="name"> Ваше имя </label>
+                            <input type="text" placeholder="Введите имя" id="name">
+                            <!-- <br> -->
+                            <label for="name2"> Имя котика </label>
+                            <input type="text" placeholder="Введите имя котика" id="name2">
+                            <!-- <br> -->
+                            <label for="email">Ваша почта</label>
+                            <input type="email" placeholder="***@yandex.ru" id="email">
+                            <!-- <br> -->
+                            <label for="phone">Ваш телефон</label>
+                            <input type="tel" placeholder="7 (999) 999 99 99" id="phone">
+                            <!-- <br> -->
+                            <label for="color">Окрас</label>
+                            <select id="color">
+                                <option selected disabled>Выбери окрас</option>
+                                <option>Черный</option>
+                                <option>Белый</option>
+                                <option>Рыжий</option>
+                                <option>Другой</option>
+                            </select>
+                            <!-- <br> -->
+                            <button class="form__submit" type="submit">Поделиться</button>                        
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="mycode">
+            <div class = "card">
+                <select name="system"> 
+                    <option>Visa</option>
+                    <option selected>МИР</option>
+                    <option>MasterCard</option>
+                </select>
+                <input type="number" placeholder="0000" maxlengh="4"name = "num1">
+                <input type="number" placeholder="0000" maxlengh="4"name = "num2">
+                <input type="number" placeholder="0000" maxlengh="4"name = "num3">
+                <input type="number" placeholder="0000" maxlengh="4"name = "num4">
+                <input type="text" placeholder="IVANOV IVAN" name = "user">
+                <div class="card__date">
+                    <input type="number" min="1" max="12" maxlength="2" value="7">
+                    /
+                    <input type="number" min="01" max="99" maxlength="2" value="22">
+                </div>
+            </div>
+        </section>
+
+
     </body>
 </html>
 
@@ -40,3 +99,5 @@
     git commit -m ""
     
     -->
+    
+    
