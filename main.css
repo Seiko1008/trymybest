@@ -112,7 +112,7 @@ button{
     width: 85.6mm;
     height: 53.98mm;
     border-radius: 3.18mm;
-    color: white;
+    color: rgb(181, 226, 167);
     padding: 6mm;
     box-sizing: border-box; /* width = content+border+padding*/
     /* box-sizing: content-box; width = content */
@@ -124,11 +124,12 @@ button{
 select, input{
     outline: none;
     background-color: transparent;
-    border: 1px solid;
+    border: 1px solid #FFF;
     color: inherit;
     width: 100%; 
     padding-left: 6px;
 }
+
 .card>[type="number"]{
     grid-row-start: 2;
 }
