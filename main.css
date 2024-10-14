@@ -38,7 +38,11 @@ button:hover{
     transition: background-color 0.3s ease-in; /*при наведении цвет меняется в течении 0,3с*/
 }
 .about__star{
-    width: 50px;
+    width: 75px;
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 .about__coolcat{
     width: 500px;
@@ -172,4 +176,8 @@ footer h3{
 }
 .footer__links a{
     margin-bottom: 15px;
+}
+@keyframes rotation{
+    form{transform: rotate(0.5turn);}
+    to {transform: rotate(1turn);}
 }
