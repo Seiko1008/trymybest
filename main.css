@@ -2,6 +2,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    background: white;
+    top: 0;
+    z-index: 1;
 }
 body{
     font-family: 'Raleway', sans-serif;
@@ -43,6 +47,7 @@ button:hover{
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    position: absolute;
 }
 .about__coolcat{
     width: 500px;
@@ -53,7 +58,6 @@ button:hover{
     align-items: center;
     padding-top: 115px;
     padding-bottom: 115px;
-    /* background: url(img/bg.svg) no-repeat; */
     background-image: linear-gradient(to top, rgb(176, 250, 176), white);
     background-position: center;
     background-size: cover;
@@ -181,3 +185,20 @@ footer h3{
     form{transform: rotate(0.5turn);}
     to {transform: rotate(1turn);}
 }
+/* @media (max-width:720px){
+    .header__logo{
+        height: 30px;
+    }
+    header{
+        padding-right: 10px ;
+        padding-left: 10px ;
+    }
+    body{
+        padding-right: 10px ;
+        padding-left: 10px ;
+    }
+    footer{
+        padding-right: 10px ;
+        padding-left: 10px ;
+    }
+} */
