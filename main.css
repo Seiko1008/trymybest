@@ -41,6 +41,9 @@ button:hover{
     box-shadow: 0 16px 36px rgba(246 152 12 / 20%); /*при наведении меняется тень*/
     transition: background-color 0.3s ease-in; /*при наведении цвет меняется в течении 0,3с*/
 }
+i{
+     font-size: 0.65em;
+}
 .about__star{
     width: 75px;
     animation-name: rotation;
@@ -60,8 +63,7 @@ button:hover{
     padding-bottom: 115px;
     background-image: linear-gradient(to top, rgb(176, 250, 176), white);
     background-position: center;
-    background-size: cover;
-
+    background-size: cover;    
 }
 .about h1{
     font-size: 70px;
@@ -185,20 +187,73 @@ footer h3{
     form{transform: rotate(0.5turn);}
     to {transform: rotate(1turn);}
 }
-/* @media (max-width:720px){
-    .header__logo{
-        height: 30px;
-    }
+@media (max-width:720px){
     header{
         padding-right: 10px ;
         padding-left: 10px ;
+        
+    }
+    .about{
+        flex-direction: column-reverse;
+    }
+    .header__logo{
+        height: 30px;
+    }
+    .about h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .form h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about__star{
+        width: 55px;
+    }
+    .about__coolcat{
+        max-width: 100%;
+    }
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .form__container{
+        width: 300px;
+    }
+    .form__group{
+        width: 300px
+    }
+    /* *{ border:1px solid red; box-sizing:border-box; } позволяет посмотреть как какой элемент располагается*/
+}
+@media (min-width:720px) and (max-width:1024px){
+    /* header{
+        padding-right: 20px ;
+        padding-left: 20px ;
     }
     body{
-        padding-right: 10px ;
-        padding-left: 10px ;
+        padding-right: 20px ;
+        padding-left: 20px ;
     }
     footer{
-        padding-right: 10px ;
-        padding-left: 10px ;
+        padding-right: 20px ;
+        padding-left: 20px ;
+    } */
+    /* .header__logo{
+        height: 30px;
+    } */
+    .about h1{
+        font-size: 36px;
+        line-height: 40px;
     }
-} */
+    .form h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about__star{
+        width: 55px;
+    }
+    .about__coolcat{
+        width: 280px;
+    }
+    /* *{ border:1px solid red; box-sizing:border-box; } */
+}
